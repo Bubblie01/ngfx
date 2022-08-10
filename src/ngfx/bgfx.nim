@@ -1,1 +1,1 @@
-generator/bgfx.nim
+../../generator/bgfx.nim
