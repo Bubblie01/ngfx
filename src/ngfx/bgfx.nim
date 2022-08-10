@@ -1,1 +1,1 @@
-/data/data/com.termux/files/home/ngfx/generator/bgfx.nim
+generator/bgfx.nim
