@@ -1,0 +1,406 @@
+[
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 56
+    },
+    "name": "BGFX_STATE_DEPTH_TEST_SHIFT",
+    "value": 4,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 77
+    },
+    "name": "BGFX_STATE_BLEND_SHIFT",
+    "value": 12,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 90
+    },
+    "name": "BGFX_STATE_BLEND_EQUATION_SHIFT",
+    "value": 28,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 99
+    },
+    "name": "BGFX_STATE_CULL_SHIFT",
+    "value": 36,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 106
+    },
+    "name": "BGFX_STATE_ALPHA_REF_SHIFT",
+    "value": 40,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 114
+    },
+    "name": "BGFX_STATE_PT_SHIFT",
+    "value": 48,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 121
+    },
+    "name": "BGFX_STATE_POINT_SIZE_SHIFT",
+    "value": 52,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 154
+    },
+    "name": "BGFX_STATE_RESERVED_SHIFT",
+    "value": 61,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 162
+    },
+    "name": "BGFX_STENCIL_FUNC_REF_SHIFT",
+    "value": 0,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 171
+    },
+    "name": "BGFX_STENCIL_FUNC_RMASK_SHIFT",
+    "value": 8,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 188
+    },
+    "name": "BGFX_STENCIL_TEST_SHIFT",
+    "value": 16,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 199
+    },
+    "name": "BGFX_STENCIL_OP_FAIL_S_SHIFT",
+    "value": 20,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 210
+    },
+    "name": "BGFX_STENCIL_OP_FAIL_Z_SHIFT",
+    "value": 24,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 221
+    },
+    "name": "BGFX_STENCIL_OP_PASS_Z_SHIFT",
+    "value": 28,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 289
+    },
+    "name": "BGFX_BUFFER_COMPUTE_FORMAT_SHIFT",
+    "value": 0,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 296
+    },
+    "name": "BGFX_BUFFER_COMPUTE_TYPE_SHIFT",
+    "value": 4,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 324
+    },
+    "name": "BGFX_TEXTURE_RT_MSAA_SHIFT",
+    "value": 36,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 329
+    },
+    "name": "BGFX_TEXTURE_RT_SHIFT",
+    "value": 36,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 340
+    },
+    "name": "BGFX_SAMPLER_U_SHIFT",
+    "value": 0,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 347
+    },
+    "name": "BGFX_SAMPLER_V_SHIFT",
+    "value": 2,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 354
+    },
+    "name": "BGFX_SAMPLER_W_SHIFT",
+    "value": 4,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 360
+    },
+    "name": "BGFX_SAMPLER_MIN_SHIFT",
+    "value": 6,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 366
+    },
+    "name": "BGFX_SAMPLER_MAG_SHIFT",
+    "value": 8,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 371
+    },
+    "name": "BGFX_SAMPLER_MIP_SHIFT",
+    "value": 10,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 383
+    },
+    "name": "BGFX_SAMPLER_COMPARE_SHIFT",
+    "value": 16,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 387
+    },
+    "name": "BGFX_SAMPLER_BORDER_COLOR_SHIFT",
+    "value": 24,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 392
+    },
+    "name": "BGFX_SAMPLER_RESERVED_SHIFT",
+    "value": 28,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 437
+    },
+    "name": "BGFX_RESET_MSAA_SHIFT",
+    "value": 4,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 458
+    },
+    "name": "BGFX_RESET_FULLSCREEN_SHIFT",
+    "value": 0,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "const",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/defines.h",
+    "position": {
+      "column": 9,
+      "line": 462
+    },
+    "name": "BGFX_RESET_RESERVED_SHIFT",
+    "value": 31,
+    "type": {
+      "kind": "unknown"
+    }
+  },
+  {
+    "kind": "var",
+    "file": "/data/data/com.termux/files/home/ngfx/generator/bgfx/include/bgfx/bgfx.h",
+    "position": {
+      "column": 11,
+      "line": 22
+    },
+    "name": "bx",
+    "pragmas": [],
+    "type": {
+      "kind": "base",
+      "value": "cint"
+    }
+  }
+]

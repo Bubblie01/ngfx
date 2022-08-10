@@ -1,0 +1,51 @@
+{
+  "cacheVersion": "D20210525T193831",
+  "outputFile": "/data/data/com.termux/files/home/ngfx/generator/main",
+  "compile": [
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_digitsutils.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_digitsutils.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_digitsutils.nim.c"
+    ],
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_dollars.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_dollars.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_dollars.nim.c"
+    ],
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_system.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_system.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_system.nim.c"
+    ],
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_times.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_times.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_times.nim.c"
+    ],
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_os.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_os.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_os.nim.c"
+    ],
+    [
+      "/data/data/com.termux/files/home/ngfx/generator/cache/@mmain.nim.c",
+      "clang -c  -w -ferror-limit=3   -I/data/data/com.termux/files/usr/lib/nim/lib -I/data/data/com.termux/files/home/ngfx/generator -o /data/data/com.termux/files/home/ngfx/generator/cache/@mmain.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/@mmain.nim.c"
+    ]
+  ],
+  "link": [
+    "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_digitsutils.nim.c.o",
+    "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_dollars.nim.c.o",
+    "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_system.nim.c.o",
+    "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_times.nim.c.o",
+    "/data/data/com.termux/files/home/ngfx/generator/cache/stdlib_os.nim.c.o",
+    "/data/data/com.termux/files/home/ngfx/generator/cache/@mmain.nim.c.o"
+  ],
+  "linkcmd": "clang   -o /data/data/com.termux/files/home/ngfx/generator/main /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_digitsutils.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_dollars.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_system.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_times.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/stdlib_os.nim.c.o /data/data/com.termux/files/home/ngfx/generator/cache/@mmain.nim.c.o  -lm -lm   -landroid-glob -Wl,-rpath=/data/data/com.termux/files/usr/lib/openssl-1.1",
+  "extraCmds": [],
+  "configFiles": [
+    "/data/data/com.termux/files/usr/lib/nim/config/nim.cfg",
+    "/data/data/com.termux/files/usr/lib/nim/config/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/data/data/com.termux/files/home/ngfx/generator",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}

@@ -1,0 +1,3 @@
+[submodule "generator/bgfx"]
+	path = generator/bgfx
+	url = https://github.com/bkaradzic/bgfx
